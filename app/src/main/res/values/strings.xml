@@ -2,6 +2,7 @@
     <string name="app_name">Premier League Club</string>
     <string name="nama_klub">Nama Klub</string>
     <string name="deskripsi_klub">Deskripsi Klub</string>
+    <string name="about">About</string>
 
     <string-array name="data_name_club">
         <item>Manchester City</item>

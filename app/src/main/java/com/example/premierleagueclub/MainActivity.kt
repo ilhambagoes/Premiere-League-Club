@@ -1,6 +1,8 @@
 package com.example.premierleagueclub
 
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -23,6 +25,20 @@ class MainActivity : AppCompatActivity() {
 
         list.addAll(getListClubs())
         showRecyclerList()
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_about -> {
+                Toast.makeText(this, "Anda memilih menu about", Toast.LENGTH_SHORT).show()
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 
     private fun getListClubs(): ArrayList<Club> {
