@@ -1,6 +1,7 @@
 package com.example.premierleagueclub
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -43,5 +44,15 @@ class MainActivity : AppCompatActivity() {
         rvClub.layoutManager = LinearLayoutManager(this)
         val listClubAdapter = ListClubAdapter(list)
         rvClub.adapter = listClubAdapter
+
+        listClubAdapter.setOnItemClickCallback(object : ListClubAdapter.OnItemClickCallback{
+            override fun onItemClicked(data: Club) {
+                showSelectedClub(data)
+            }
+        })
+    }
+
+    private fun showSelectedClub(club: Club) {
+        Toast.makeText(this, "Kamu memilih " + club.name, Toast.LENGTH_SHORT).show()
     }
 }

@@ -10,6 +10,12 @@ import androidx.recyclerview.widget.RecyclerView
 
 class ListClubAdapter(private val listClub: ArrayList<Club>) : RecyclerView.Adapter<ListClubAdapter.ViewHolder>(){
 
+    private lateinit var onItemClickCallback: OnItemClickCallback
+
+    fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback){
+        this.onItemClickCallback = onItemClickCallback
+    }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view : View = LayoutInflater.from(parent.context).inflate(R.layout.item_row_club, parent, false)
         return ViewHolder(view)
@@ -21,7 +27,7 @@ class ListClubAdapter(private val listClub: ArrayList<Club>) : RecyclerView.Adap
         holder.tvName.text = name
         holder.tvDescription.text = description
         holder.itemView.setOnClickListener {
-            Toast.makeText(holder.itemView.context, "Kamu memilih " + listClub[holder.adapterPosition].name, Toast.LENGTH_SHORT).show()
+            onItemClickCallback.onItemClicked(listClub[holder.adapterPosition])
         }
     }
 
@@ -31,6 +37,10 @@ class ListClubAdapter(private val listClub: ArrayList<Club>) : RecyclerView.Adap
         val imgPhoto: ImageView = itemView.findViewById(R.id.img_item_photo)
         val tvName: TextView = itemView.findViewById(R.id.tv_item_name)
         val tvDescription: TextView = itemView.findViewById(R.id.tv_item_description)
+    }
+
+    interface OnItemClickCallback {
+        fun onItemClicked(data: Club)
     }
 
 }
