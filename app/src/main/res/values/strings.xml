@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Premier League Club</string>
+    <string name="nama_klub">Nama Klub</string>
+    <string name="deskripsi_klub">Deskripsi Klub</string>
+
+    <string-array name="data_name_club">
+        <item>Manchester City</item>
+        <item>Liverpool</item>
+        <item>Arsenal</item>
+        <item>Aston Villa</item>
+        <item>Chelsea</item>
+        <item>Brighton Hove Albion</item>
+        <item>Nottingham Forest</item>
+        <item>Tottenham Hotspur</item>
+        <item>Brentford</item>
+        <item>Fulham</item>
+        <item>Bournemouth</item>
+        <item>Newcastle</item>
+        <item>West Ham</item>
+        <item>Manchester United</item>
+        <item>Leicester</item>
+    </string-array>
+
+    <string-array name="data_description_club">
+        <item>Manchester City Football Club adalah sebuah klub sepak bola profesional dari Inggris yang bermain di Liga Premier Inggris. Klub ini merupakan klub sekota dengan Manchester United dan bermarkas di Stadion Etihad, Manchester. Pertandingan pertama dimainkan pada bulan November 1880. Pada saat itu masih bernama St Mark\'s.</item>
+        <item>Liverpool Football Club adalah sebuah klub sepak bola profesional asal Inggris yang berbasis di Liverpool.</item>
+        <item>Arsenal Football Club adalah klub sepak bola profesional Inggris yang berbasis di daerah Holloway, London. Didirikan pada 1886 dengan nama Dial Square</item>
+        <item>Aston Villa Football Club adalah sebuah klub sepak bola profesional yang berbasis di Aston, Birmingham, Inggris. Klub yang didirikan pada tahun 1874 ini berkompetisi di Liga Premier, kasta teratas sepak bola Inggris. Tim ini telah bermain di kandang mereka, Villa Park, sejak tahun 1897.</item>
+        <item>Chelsea Football Club adalah sebuah klub sepak bola profesional yang bermarkas di Fulham, London. Didirikan pada 1905, klub ini kini berkompetisi di Liga Utama Inggris dan memainkan pertandingan kandang mereka di Stamford Bridge.</item>
+        <item>Brighton &amp; Hove Albion Football Club adalah sebuah klub sepak bola profesional asal Inggris yang berbasis di kota pantai Brighton &amp; Hove, di timur Sussex. Sering disebut sebagai Brighton &amp; Hove Albion atau hanya sekadar sebagai Brighton.</item>
+        <item>Nottingham Forest Football Club adalah nama klub sepak bola asal Inggris yang berbasis di West Bridgford, Nottingham dan saat ini bermain di Liga Inggris. Didirikan pada tahun 1865, klub telah menggunakan Stadion City Ground sejak tahun 1898.</item>
+        <item>Tottenham Hotspur Football Club, adalah klub sepak bola yang berasal dari Tottenham, sebuah daerah yang berada di wilayah utara London. Mereka juga dikenal sebagai Spurs, The Spurs dan Tottenham, sementara penggemar mereka memberi mereka nama the Lilywhites karena seragam tradisional mereka yang berwarna putih.</item>
+        <item>Brentford Football Club adalah klub sepak bola profesional yang berbasis di Brentford, London Barat, Inggris. Mereka saat ini bersaing di Liga Utama Inggris, tingkat tertinggi sepak bola Inggris, setelah mendapatkan promosi melalui babak playoff pada akhir musim Kejuaraan 2020–21</item>
+        <item>Fulham Football Club adalah sebuah klub sepak bola Inggris yang didirikan pada tahun 1879. Klub ini bermarkas di daerah Fulham, London dan berkompetisi di Liga Utama Inggris.</item>
+        <item>AFC Bournemouth merupakan sebuah klub sepak bola profesional asal Inggris yang saat ini bermain di Liga Primer Inggris. Klub ini bermain di Lapangan Dean Court di Kings Park, Boscombe, Bournemouth, Dorset dan sudah ada sejak tahun 1899. Awalnya klub ini pada saat didirikan pada tahun 1890 bernama Boscombe St.</item>
+        <item>Newcastle United Football Club adalah klub sepak bola profesional Inggris, yang berbasis di Newcastle upon Tyne, yang bermain di Liga Utama Inggris – divisi teratas sepak bola Inggris. Klub ini didirikan pada tahun 1892 melalui penggabungan Newcastle East End dan Newcastle West End.</item>
+        <item>West Ham United Football Club adalah sebuah klub sepak bola Inggris yang bermarkas di London. Sejak 2016, klub ini memainkan pertandingan kandangnya di Stadion London yang berkapasitas 60.000 kursi. Sebelumnya The Hammers bermain di Boleyn Ground, seragam mereka berwarna merah-biru.</item>
+        <item>Manchester United Football Club adalah sebuah klub sepak bola profesional yang berbasis di Old Trafford, Manchester Raya, Inggris, dan bermain di Liga Utama Inggris. Klub ini memiliki 20 gelar Liga Inggris dengan 13 di antaranya di era Liga Utama, terbanyak sepanjang masa.</item>
+        <item>Leicester City Football Club adalah sebuah klub sepak bola yang berasal dari Leicester, Inggris. Tim ini bermain di kasta pertama sepak bola inggris, Liga Utama Inggris dan bermarkas di King Power Stadium.</item>
+    </string-array>
+
+    <string-array name="data_logo_club">
+        <item>@drawable/manchester_city</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/arsenal_fc</item>
+        <item>@drawable/aston_villa</item>
+        <item>@drawable/chelsea</item>
+        <item>@drawable/brighton</item>
+        <item>@drawable/nottingham_forest</item>
+        <item>@drawable/tottenham</item>
+        <item>@drawable/brentford</item>
+        <item>@drawable/fulham</item>
+        <item>@drawable/bournemouth</item>
+        <item>@drawable/newcastle_united</item>
+        <item>@drawable/west_ham</item>
+        <item>@drawable/manchester_united</item>
+        <item>@drawable/leicester</item>
+    </string-array>
+</resources>
