@@ -60,4 +60,114 @@
         <item>@drawable/manchester_united</item>
         <item>@drawable/leicester</item>
     </string-array>
+
+    <string-array name="data_stadium">
+        <item>Etihad Stadium, kapasitas: 53,000, Manchester</item> <!-- Manchester City -->
+        <item>Anfield, kapasitas: 54,000, Liverpool</item> <!-- Liverpool -->
+        <item>Emirates Stadium, kapasitas: 60,000, London</item> <!-- Arsenal -->
+        <item>Villa Park, kapasitas: 42,000, Birmingham</item> <!-- Aston Villa -->
+        <item>Stamford Bridge, kapasitas: 41,837, London</item> <!-- Chelsea -->
+        <item>Falmer Stadium, kapasitas: 31,800, Brighton</item> <!-- Brighton Hove Albion -->
+        <item>City Ground, kapasitas: 30,445, Nottingham</item> <!-- Nottingham Forest -->
+        <item>Tottenham Hotspur Stadium, kapasitas: 62,850, London</item> <!-- Tottenham -->
+        <item>Brentford Community Stadium, kapasitas: 17,250, London</item> <!-- Brentford -->
+        <item>Craven Cottage, kapasitas: 25,700, London</item> <!-- Fulham -->
+        <item>Vitality Stadium, kapasitas: 11,329, Bournemouth</item> <!-- Bournemouth -->
+        <item>St James\' Park, kapasitas: 52,305, Newcastle</item> <!-- Newcastle -->
+        <item>London Stadium, kapasitas: 60,000, London</item> <!-- West Ham -->
+        <item>Old Trafford, kapasitas: 74,140, Manchester</item> <!-- Manchester United -->
+        <item>King Power Stadium, kapasitas: 32,312, Leicester</item> <!-- Leicester -->
+    </string-array>
+
+    <string-array name="data_key_player">
+        <item>Kevin De Bruyne</item> <!-- Manchester City -->
+        <item>Mohamed Salah</item> <!-- Liverpool -->
+        <item>Martin Ødegaard</item> <!-- Arsenal -->
+        <item>Ollie Watkins</item> <!-- Aston Villa -->
+        <item>Raheem Sterling</item> <!-- Chelsea -->
+        <item>Kaoru Mitoma</item> <!-- Brighton Hove Albion -->
+        <item>Morgan Gibbs-White</item> <!-- Nottingham Forest -->
+        <item>Harry Kane</item> <!-- Tottenham -->
+        <item>Ivan Toney</item> <!-- Brentford -->
+        <item>João Palhinha</item> <!-- Fulham -->
+        <item>Dominic Solanke</item> <!-- Bournemouth -->
+        <item>Kieran Trippier</item> <!-- Newcastle -->
+        <item>Declan Rice</item> <!-- West Ham -->
+        <item>Bruno Fernandes</item> <!-- Manchester United -->
+        <item>James Maddison</item> <!-- Leicester -->
+    </string-array>
+
+    <string-array name="data_manager">
+        <item>Pep Guardiola</item> <!-- Manchester City -->
+        <item>Jürgen Klopp</item> <!-- Liverpool -->
+        <item>Mikel Arteta</item> <!-- Arsenal -->
+        <item>Unai Emery</item> <!-- Aston Villa -->
+        <item>Mauricio Pochettino</item> <!-- Chelsea -->
+        <item>Roberto De Zerbi</item> <!-- Brighton Hove Albion -->
+        <item>Steve Cooper</item> <!-- Nottingham Forest -->
+        <item>Ryan Mason</item> <!-- Tottenham -->
+        <item>Thomas Frank</item> <!-- Brentford -->
+        <item>Marco Silva</item> <!-- Fulham -->
+        <item>Andoni Iraola</item> <!-- Bournemouth -->
+        <item>Eddie Howe</item> <!-- Newcastle -->
+        <item>David Moyes</item> <!-- West Ham -->
+        <item>Erik ten Hag</item> <!-- Manchester United -->
+        <item>Enzo Maresca</item> <!-- Leicester -->
+    </string-array>
+
+    <string-array name="data_founded_year">
+        <item>1880</item> <!-- Manchester City -->
+        <item>1892</item> <!-- Liverpool -->
+        <item>1886</item> <!-- Arsenal -->
+        <item>1874</item> <!-- Aston Villa -->
+        <item>1905</item> <!-- Chelsea -->
+        <item>1901</item> <!-- Brighton Hove Albion -->
+        <item>1865</item> <!-- Nottingham Forest -->
+        <item>1882</item> <!-- Tottenham -->
+        <item>1889</item> <!-- Brentford -->
+        <item>1879</item> <!-- Fulham -->
+        <item>1899</item> <!-- Bournemouth -->
+        <item>1892</item> <!-- Newcastle -->
+        <item>1895</item> <!-- West Ham -->
+        <item>1878</item> <!-- Manchester United -->
+        <item>1884</item> <!-- Leicester -->
+    </string-array>
+
+
+    <string-array name="data_trophies">
+        <item>35</item> <!-- Manchester City -->
+        <item>63</item> <!-- Liverpool -->
+        <item>47</item> <!-- Arsenal -->
+        <item>20</item> <!-- Aston Villa -->
+        <item>31</item> <!-- Chelsea -->
+        <item>1</item> <!-- Brighton Hove Albion -->
+        <item>2</item> <!-- Nottingham Forest -->
+        <item>26</item> <!-- Tottenham -->
+        <item>0</item> <!-- Brentford -->
+        <item>5</item> <!-- Fulham -->
+        <item>1</item> <!-- Bournemouth -->
+        <item>10</item> <!-- Newcastle -->
+        <item>6</item> <!-- West Ham -->
+        <item>66</item> <!-- Manchester United -->
+        <item>5</item> <!-- Leicester -->
+    </string-array>
+
+    <string-array name="data_website">
+        <item>https://www.mancity.com</item> <!-- Manchester City -->
+        <item>https://www.liverpoolfc.com</item> <!-- Liverpool -->
+        <item>https://www.arsenal.com</item> <!-- Arsenal -->
+        <item>https://www.avfc.co.uk</item> <!-- Aston Villa -->
+        <item>https://www.chelseafc.com</item> <!-- Chelsea -->
+        <item>https://www.brightonandhovealbion.com</item> <!-- Brighton Hove Albion -->
+        <item>https://www.nottinghamforest.co.uk</item> <!-- Nottingham Forest -->
+        <item>https://www.tottenhamhotspur.com</item> <!-- Tottenham -->
+        <item>https://www.brentfordfc.com</item> <!-- Brentford -->
+        <item>https://www.fulhamfc.com</item> <!-- Fulham -->
+        <item>https://www.afcb.co.uk</item> <!-- Bournemouth -->
+        <item>https://www.nufc.co.uk</item> <!-- Newcastle -->
+        <item>https://www.whufc.com</item> <!-- West Ham -->
+        <item>https://www.manutd.com</item> <!-- Manchester United -->
+        <item>https://www.lcfc.com</item> <!-- Leicester -->
+    </string-array>
+
 </resources>
