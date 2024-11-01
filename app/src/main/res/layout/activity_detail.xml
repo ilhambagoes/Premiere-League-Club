@@ -3,11 +3,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:title="Detail Klub" />
+        android:layout_height="wrap_content"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -28,22 +27,13 @@
                 android:layout_marginBottom="16dp"
                 android:contentDescription="Logo" />
 
-            <!-- Club Name -->
-            <TextView
-                android:id="@+id/club_name"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:textColor="@android:color/black"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
             <!-- Club Description -->
             <TextView
                 android:id="@+id/club_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word"
                 android:textSize="16sp" />
 
             <!-- Stadium -->
