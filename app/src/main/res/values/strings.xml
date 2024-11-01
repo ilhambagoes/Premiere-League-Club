@@ -6,6 +6,8 @@
     <string name="author_name">Ilham Bagoes Tripoetra</string>
     <string name="author_email">ilham.tripoetra@gmail.com</string>
     <string name="back">Back</string>
+    <string name="share">Bagikan</string>
+    <string name="logo">Logo</string>
 
     <string-array name="data_name_club">
         <item>Manchester City</item>

@@ -1,9 +1,11 @@
 package com.example.premierleagueclub
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -33,7 +35,7 @@ class DetailActivity : AppCompatActivity() {
         val tvManager: TextView = findViewById(R.id.manager)
         val tvFoundedYear: TextView = findViewById(R.id.founded_year)
         val tvTrophies: TextView = findViewById(R.id.trophies)
-        val tvWebsite: TextView = findViewById(R.id.website)
+        val btnShare: Button = findViewById(R.id.btn_share)
 
         val club = if (Build.VERSION.SDK_INT >= 33) {
             intent.getParcelableExtra(EXTRA_DATA, Club::class.java)
@@ -50,7 +52,18 @@ class DetailActivity : AppCompatActivity() {
             tvManager.text = "Manager : ${club.manager}"
             tvFoundedYear.text = "Tahun Berdiri : ${club.foundedYear}"
             tvTrophies.text = "Jumlah Trofi : ${club.trophies} Trofi"
-            tvWebsite.text = club.website
+
+
+            btnShare.setOnClickListener {
+                val sendIntent: Intent = Intent().apply {
+                    action = Intent.ACTION_SEND
+                    putExtra(Intent.EXTRA_TEXT, "Kunjungi situs utama kami : ${club.website}")
+                    type = "text/plain"
+                }
+
+                val shareIntent = Intent.createChooser(sendIntent, null)
+                startActivity(shareIntent)
+            }
         }
     }
 
