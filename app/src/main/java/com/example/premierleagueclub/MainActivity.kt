@@ -4,11 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -47,11 +43,27 @@ class MainActivity : AppCompatActivity() {
         val dataName = resources.getStringArray(R.array.data_name_club)
         val dataDescription = resources.getStringArray(R.array.data_description_club)
         val dataLogo = resources.obtainTypedArray(R.array.data_logo_club)
+        val dataStadium = resources.getStringArray(R.array.data_stadium)
+        val dataKeyPlayer = resources.getStringArray(R.array.data_key_player)
+        val dataManager = resources.getStringArray(R.array.data_manager)
+        val dataFoundedYear = resources.getStringArray(R.array.data_founded_year)
+        val dataTrophies = resources.getStringArray(R.array.data_trophies)
+        val dataWebsite = resources.getStringArray(R.array.data_website)
 
         val listClub = ArrayList<Club>()
 
         for (i in dataName.indices) {
-            val club = Club(dataName[i], dataDescription[i], dataLogo.getResourceId(i, -1))
+            val club = Club(
+                name = dataName[i],
+                description = dataDescription[i],
+                photo = dataLogo.getResourceId(i, -1),
+                stadium = dataStadium[i],
+                keyPlayer = dataKeyPlayer[i],
+                manager = dataManager[i],
+                foundedYear = dataFoundedYear[i],
+                trophies = dataTrophies[i],
+                website = dataWebsite[i]
+            )
             listClub.add(club)
         }
 
@@ -71,6 +83,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showSelectedClub(club: Club) {
-        Toast.makeText(this, "Kamu memilih " + club.name, Toast.LENGTH_SHORT).show()
+        val intentToDetail = Intent(this@MainActivity, DetailActivity::class.java)
+        intentToDetail.putExtra(DetailActivity.EXTRA_DATA, club)
+        startActivity(intentToDetail)
     }
 }

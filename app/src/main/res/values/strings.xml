@@ -62,22 +62,23 @@
     </string-array>
 
     <string-array name="data_stadium">
-        <item>Etihad Stadium, kapasitas: 53,000, Manchester</item> <!-- Manchester City -->
-        <item>Anfield, kapasitas: 54,000, Liverpool</item> <!-- Liverpool -->
-        <item>Emirates Stadium, kapasitas: 60,000, London</item> <!-- Arsenal -->
-        <item>Villa Park, kapasitas: 42,000, Birmingham</item> <!-- Aston Villa -->
-        <item>Stamford Bridge, kapasitas: 41,837, London</item> <!-- Chelsea -->
-        <item>Falmer Stadium, kapasitas: 31,800, Brighton</item> <!-- Brighton Hove Albion -->
-        <item>City Ground, kapasitas: 30,445, Nottingham</item> <!-- Nottingham Forest -->
-        <item>Tottenham Hotspur Stadium, kapasitas: 62,850, London</item> <!-- Tottenham -->
-        <item>Brentford Community Stadium, kapasitas: 17,250, London</item> <!-- Brentford -->
-        <item>Craven Cottage, kapasitas: 25,700, London</item> <!-- Fulham -->
-        <item>Vitality Stadium, kapasitas: 11,329, Bournemouth</item> <!-- Bournemouth -->
-        <item>St James\' Park, kapasitas: 52,305, Newcastle</item> <!-- Newcastle -->
-        <item>London Stadium, kapasitas: 60,000, London</item> <!-- West Ham -->
-        <item>Old Trafford, kapasitas: 74,140, Manchester</item> <!-- Manchester United -->
-        <item>King Power Stadium, kapasitas: 32,312, Leicester</item> <!-- Leicester -->
+        <item>Etihad Stadium | kapasitas: 53,000 | Manchester</item>
+        <item>Anfield | kapasitas: 54,000 | Liverpool</item>
+        <item>Emirates Stadium | kapasitas: 60,000 | London</item>
+        <item>Villa Park | kapasitas: 42,000 | Birmingham</item>
+        <item>Stamford Bridge | kapasitas: 41,837 | London</item>
+        <item>Falmer Stadium | kapasitas: 31,800 | Brighton</item>
+        <item>City Ground | kapasitas: 30,445 | Nottingham</item>
+        <item>Tottenham Hotspur Stadium | kapasitas: 62,850 | London</item>
+        <item>Brentford Community Stadium | kapasitas: 17,250 | London</item>
+        <item>Craven Cottage | kapasitas: 25,700 | London</item>
+        <item>Vitality Stadium | kapasitas: 11,329 | Bournemouth</item>
+        <item>St James\' Park | kapasitas: 52,305 | Newcastle</item>
+        <item>London Stadium | kapasitas: 60,000 | London</item>
+        <item>Old Trafford | kapasitas: 74,140 | Manchester</item>
+        <item>King Power Stadium | kapasitas: 32,312 | Leicester</item>
     </string-array>
+
 
     <string-array name="data_key_player">
         <item>Kevin De Bruyne</item> <!-- Manchester City -->
